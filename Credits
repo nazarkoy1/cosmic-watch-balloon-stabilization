@@ -1,0 +1,27 @@
+## Attribution
+This project uses and adapts code from:
+
+- **Cosmic Watch** firmware – © YEAR AUTHORS. MIT License.  
+  Source: https://github.com/<org>/<repo>  
+  Changes: refactored logging, added Serial Plotter debug, adjusted pin map.
+
+- **MPU6050 / I2Cdevlib** – © YEAR Jeff Rowberg and contributors. MIT License.  
+  Source: https://github.com/jrowberg/i2cdevlib
+
+- **Servo** (Arduino core) – LGPL-2.1-or-later (bundled with Arduino IDE).  
+- **Wire** (Arduino core) – LGPL-2.1-or-later (bundled).
+
+
+## Third-party Licenses
+| Dependency | License | Notes |
+|---|---|---|
+| Cosmic Watch firmware | MIT | Include original LICENSE file |
+| I2Cdevlib / MPU6050 | MIT | Include original LICENSE file |
+| Servo (Arduino) | LGPL-2.1+ | Linked/bundled, not vendored |
+| Wire (Arduino) | LGPL-2.1+ | Linked/bundled, not vendored |
+
+
+## Credits / Prior Work
+This project builds on the **CosmicWatch Desktop Muon Detector (v2)** by Spencer N. Axani et al.  
+Source: https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2  
+I referenced their detector design/materials and library patterns while writing my firmware.
